@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+  <link type = "text/css" rel = "stylesheet" href = "style/stylesheet.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>parcinfo</title>
+</head>
+<body>
+	<header>
+		<div>
+			<img alt= "computer" src= "images/computer.jpg" >
+			<img alt= "logo" src= "images/logo.png" >
+		
+		</div>
+		<nav>
+			<a href="index.html">Accueil – Liste des incidents</a>
+			<a href="form.html">Signaler un incident</a>
+		</nav>
+	</header>
+
+<h4>Vous pouvez signaler un incident à l'aide de ce formulaire </h4>
+
+<form action = "mailto:gahiso2004@gmail.com" method = "post">
+
+	<fieldset> <legend>Information Personnelles : </legend>
+		<ul>
+			<li>
+			Votre nom :  <input type = "text" name = "nom" placeholder= "Donnez votre Nom" > <br>
+			</li>
+		</ul>	
+		<ul>
+			<li>
+			Votre prénom :  <input type = "text" name = "prenom" placeholder= "Donnez votre Prénom"> <br>
+			</li>
+		</ul>
+		<ul>
+			<li>
+			Votre email :  <input type = "text" name = "email" placeholder= "Donnez votre Email" >
+			</li>
+		</ul>
+		<ul>
+			<li>
+			votre section : <select name= "section" > 
+								<option>Kinéthérapeute </option>
+								<option>Nothing </option>
+								<option selected = "selected">Informatique</option>
+							</select>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				Date de l'incident : <input type="date" name="date" min="2014-09-15" max="2020-09-15" step="7"/>
+
+			</li>
+		</ul>
+		<ul>
+			<li>
+				Photo de l'incident : <form action = "URL/script" method = "post" enctype="multipart/form-data">
+											<input type = "file" name = "un_fichier" />
+											<input type = "hidden" name = "MAX_FILE_SIZE" value="100000" />
+			</li>
+		</ul>
+
+	</fieldset> <br>
+	
+	<fieldset> <legend> Résumé du probléme : </legend>
+					<textarea name = "commentaire" cols = "180" rows = "5" placeholder= "Entrez ici l'incident:" > </textarea> <br>
+	</fieldset> <br>
+	<input type = "submit"  value = "Envoyer" > <br> 
+		
+</form>
+<footer> 
+	<p>Design par Jana </p>
+</footer>		
+
+</body>
+</html>

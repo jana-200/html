@@ -1,0 +1,84 @@
+
+header div{ 
+	margin : 10px;
+	background-color: white;
+	border: 1px solid ;
+	text-align: center;
+}
+
+header nav{ 
+	background-color: black;
+	margin : 10px;
+	text-align: left;
+	height:30px;
+}
+header nav a{ 
+	padding-top: 30px;
+	color: white;
+	text-align: left;
+	font-size:20px;
+	border-spacing: 10px;
+	padding:20px;
+}
+
+#mainSection {
+	display: flex;
+	justify-content: space-between;
+}
+
+table caption{ 
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: #ADD8E6;
+}
+
+table {
+  text-align: center;
+  margin:10px;
+  width: 70%;
+  height: 20%;
+  border-collapse: collapse;
+}
+
+thead {
+	background-color: #f2f2f2;
+}
+
+table tr,th {
+	border: 1px solid;
+	padding: 8px;
+}
+
+#mainSection div{ 
+	float: right;
+	width:15%;
+	text-align: center;
+	background-color: #ADD8E6 ;
+	margin-right: 10px;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+div h4{
+	text-decoration: underline;
+}
+h4{ 
+	margin:10px;
+}
+form{ 
+	margin:10px;
+}
+
+
+footer { 
+	background-color: black;
+	margin : 10px;
+	text-align: center;
+	height:30px;
+}
+
+footer p{ 
+	padding-top: 5px;
+	font-size:20px;
+	color:white;
+}
